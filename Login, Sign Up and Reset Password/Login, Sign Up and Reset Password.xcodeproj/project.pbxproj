@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8549F3161CC8F7A80044F86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F3151CC8F7A80044F86C /* main.m */; };
+		8549F3191CC8F7A80044F86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F3181CC8F7A80044F86C /* AppDelegate.m */; };
+		8549F31F1CC8F7A80044F86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8549F31D1CC8F7A80044F86C /* Main.storyboard */; };
+		8549F3211CC8F7A80044F86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8549F3201CC8F7A80044F86C /* Assets.xcassets */; };
+		8549F3241CC8F7A80044F86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8549F3221CC8F7A80044F86C /* LaunchScreen.storyboard */; };
+		8549F32F1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F32E1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordTests.m */; };
+		8549F33A1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F3391CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordUITests.m */; };
+		8549F34F1CC8F7D50044F86C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F3481CC8F7D50044F86C /* HomeViewController.m */; };
+		8549F3501CC8F7D50044F86C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F34A1CC8F7D50044F86C /* LoginViewController.m */; };
+		8549F3511CC8F7D50044F86C /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F34C1CC8F7D50044F86C /* ResetPasswordViewController.m */; };
+		8549F3521CC8F7D50044F86C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549F34E1CC8F7D50044F86C /* SignUpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8549F32B1CC8F7A80044F86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8549F3091CC8F7A80044F86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8549F3101CC8F7A80044F86C;
+			remoteInfo = "Login, Sign Up and Reset Password";
+		};
+		8549F3361CC8F7A80044F86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8549F3091CC8F7A80044F86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8549F3101CC8F7A80044F86C;
+			remoteInfo = "Login, Sign Up and Reset Password";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8549F3111CC8F7A80044F86C /* Login, Sign Up and Reset Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login, Sign Up and Reset Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8549F3151CC8F7A80044F86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8549F3171CC8F7A80044F86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8549F3181CC8F7A80044F86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8549F31E1CC8F7A80044F86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8549F3201CC8F7A80044F86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8549F3231CC8F7A80044F86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8549F3251CC8F7A80044F86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8549F32A1CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login, Sign Up and Reset PasswordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8549F32E1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login__Sign_Up_and_Reset_PasswordTests.m; sourceTree = "<group>"; };
+		8549F3301CC8F7A80044F86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8549F3351CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login, Sign Up and Reset PasswordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8549F3391CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Login__Sign_Up_and_Reset_PasswordUITests.m; sourceTree = "<group>"; };
+		8549F33B1CC8F7A80044F86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8549F3471CC8F7D50044F86C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8549F3481CC8F7D50044F86C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8549F3491CC8F7D50044F86C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8549F34A1CC8F7D50044F86C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8549F34B1CC8F7D50044F86C /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		8549F34C1CC8F7D50044F86C /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		8549F34D1CC8F7D50044F86C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		8549F34E1CC8F7D50044F86C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8549F30E1CC8F7A80044F86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3271CC8F7A80044F86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3321CC8F7A80044F86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8549F3081CC8F7A80044F86C = {
+			isa = PBXGroup;
+			children = (
+				8549F3131CC8F7A80044F86C /* Login, Sign Up and Reset Password */,
+				8549F32D1CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests */,
+				8549F3381CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests */,
+				8549F3121CC8F7A80044F86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8549F3121CC8F7A80044F86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8549F3111CC8F7A80044F86C /* Login, Sign Up and Reset Password.app */,
+				8549F32A1CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests.xctest */,
+				8549F3351CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8549F3131CC8F7A80044F86C /* Login, Sign Up and Reset Password */ = {
+			isa = PBXGroup;
+			children = (
+				8549F3171CC8F7A80044F86C /* AppDelegate.h */,
+				8549F3181CC8F7A80044F86C /* AppDelegate.m */,
+				8549F3471CC8F7D50044F86C /* HomeViewController.h */,
+				8549F3481CC8F7D50044F86C /* HomeViewController.m */,
+				8549F3491CC8F7D50044F86C /* LoginViewController.h */,
+				8549F34A1CC8F7D50044F86C /* LoginViewController.m */,
+				8549F34B1CC8F7D50044F86C /* ResetPasswordViewController.h */,
+				8549F34C1CC8F7D50044F86C /* ResetPasswordViewController.m */,
+				8549F34D1CC8F7D50044F86C /* SignUpViewController.h */,
+				8549F34E1CC8F7D50044F86C /* SignUpViewController.m */,
+				8549F31D1CC8F7A80044F86C /* Main.storyboard */,
+				8549F3201CC8F7A80044F86C /* Assets.xcassets */,
+				8549F3221CC8F7A80044F86C /* LaunchScreen.storyboard */,
+				8549F3251CC8F7A80044F86C /* Info.plist */,
+				8549F3141CC8F7A80044F86C /* Supporting Files */,
+			);
+			path = "Login, Sign Up and Reset Password";
+			sourceTree = "<group>";
+		};
+		8549F3141CC8F7A80044F86C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8549F3151CC8F7A80044F86C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8549F32D1CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				8549F32E1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordTests.m */,
+				8549F3301CC8F7A80044F86C /* Info.plist */,
+			);
+			path = "Login, Sign Up and Reset PasswordTests";
+			sourceTree = "<group>";
+		};
+		8549F3381CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8549F3391CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordUITests.m */,
+				8549F33B1CC8F7A80044F86C /* Info.plist */,
+			);
+			path = "Login, Sign Up and Reset PasswordUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8549F3101CC8F7A80044F86C /* Login, Sign Up and Reset Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8549F33E1CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset Password" */;
+			buildPhases = (
+				8549F30D1CC8F7A80044F86C /* Sources */,
+				8549F30E1CC8F7A80044F86C /* Frameworks */,
+				8549F30F1CC8F7A80044F86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login, Sign Up and Reset Password";
+			productName = "Login, Sign Up and Reset Password";
+			productReference = 8549F3111CC8F7A80044F86C /* Login, Sign Up and Reset Password.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8549F3291CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8549F3411CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset PasswordTests" */;
+			buildPhases = (
+				8549F3261CC8F7A80044F86C /* Sources */,
+				8549F3271CC8F7A80044F86C /* Frameworks */,
+				8549F3281CC8F7A80044F86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8549F32C1CC8F7A80044F86C /* PBXTargetDependency */,
+			);
+			name = "Login, Sign Up and Reset PasswordTests";
+			productName = "Login, Sign Up and Reset PasswordTests";
+			productReference = 8549F32A1CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8549F3341CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8549F3441CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset PasswordUITests" */;
+			buildPhases = (
+				8549F3311CC8F7A80044F86C /* Sources */,
+				8549F3321CC8F7A80044F86C /* Frameworks */,
+				8549F3331CC8F7A80044F86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8549F3371CC8F7A80044F86C /* PBXTargetDependency */,
+			);
+			name = "Login, Sign Up and Reset PasswordUITests";
+			productName = "Login, Sign Up and Reset PasswordUITests";
+			productReference = 8549F3351CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8549F3091CC8F7A80044F86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "dacombe designs";
+				TargetAttributes = {
+					8549F3101CC8F7A80044F86C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8549F3291CC8F7A80044F86C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8549F3101CC8F7A80044F86C;
+					};
+					8549F3341CC8F7A80044F86C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8549F3101CC8F7A80044F86C;
+					};
+				};
+			};
+			buildConfigurationList = 8549F30C1CC8F7A80044F86C /* Build configuration list for PBXProject "Login, Sign Up and Reset Password" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8549F3081CC8F7A80044F86C;
+			productRefGroup = 8549F3121CC8F7A80044F86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8549F3101CC8F7A80044F86C /* Login, Sign Up and Reset Password */,
+				8549F3291CC8F7A80044F86C /* Login, Sign Up and Reset PasswordTests */,
+				8549F3341CC8F7A80044F86C /* Login, Sign Up and Reset PasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8549F30F1CC8F7A80044F86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8549F3241CC8F7A80044F86C /* LaunchScreen.storyboard in Resources */,
+				8549F3211CC8F7A80044F86C /* Assets.xcassets in Resources */,
+				8549F31F1CC8F7A80044F86C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3281CC8F7A80044F86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3331CC8F7A80044F86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8549F30D1CC8F7A80044F86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8549F3501CC8F7D50044F86C /* LoginViewController.m in Sources */,
+				8549F3511CC8F7D50044F86C /* ResetPasswordViewController.m in Sources */,
+				8549F3521CC8F7D50044F86C /* SignUpViewController.m in Sources */,
+				8549F3191CC8F7A80044F86C /* AppDelegate.m in Sources */,
+				8549F3161CC8F7A80044F86C /* main.m in Sources */,
+				8549F34F1CC8F7D50044F86C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3261CC8F7A80044F86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8549F32F1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8549F3311CC8F7A80044F86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8549F33A1CC8F7A80044F86C /* Login__Sign_Up_and_Reset_PasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8549F32C1CC8F7A80044F86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8549F3101CC8F7A80044F86C /* Login, Sign Up and Reset Password */;
+			targetProxy = 8549F32B1CC8F7A80044F86C /* PBXContainerItemProxy */;
+		};
+		8549F3371CC8F7A80044F86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8549F3101CC8F7A80044F86C /* Login, Sign Up and Reset Password */;
+			targetProxy = 8549F3361CC8F7A80044F86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8549F31D1CC8F7A80044F86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8549F31E1CC8F7A80044F86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8549F3221CC8F7A80044F86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8549F3231CC8F7A80044F86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8549F33C1CC8F7A80044F86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8549F33D1CC8F7A80044F86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8549F33F1CC8F7A80044F86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login, Sign Up and Reset Password/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-Password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8549F3401CC8F7A80044F86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Login, Sign Up and Reset Password/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-Password";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8549F3421CC8F7A80044F86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login, Sign Up and Reset PasswordTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-PasswordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login, Sign Up and Reset Password.app/Login, Sign Up and Reset Password";
+			};
+			name = Debug;
+		};
+		8549F3431CC8F7A80044F86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Login, Sign Up and Reset PasswordTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-PasswordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login, Sign Up and Reset Password.app/Login, Sign Up and Reset Password";
+			};
+			name = Release;
+		};
+		8549F3451CC8F7A80044F86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login, Sign Up and Reset PasswordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-PasswordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login, Sign Up and Reset Password";
+			};
+			name = Debug;
+		};
+		8549F3461CC8F7A80044F86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Login, Sign Up and Reset PasswordUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dacombe-designs.Login--Sign-Up-and-Reset-PasswordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Login, Sign Up and Reset Password";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8549F30C1CC8F7A80044F86C /* Build configuration list for PBXProject "Login, Sign Up and Reset Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8549F33C1CC8F7A80044F86C /* Debug */,
+				8549F33D1CC8F7A80044F86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8549F33E1CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8549F33F1CC8F7A80044F86C /* Debug */,
+				8549F3401CC8F7A80044F86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8549F3411CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset PasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8549F3421CC8F7A80044F86C /* Debug */,
+				8549F3431CC8F7A80044F86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8549F3441CC8F7A80044F86C /* Build configuration list for PBXNativeTarget "Login, Sign Up and Reset PasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8549F3451CC8F7A80044F86C /* Debug */,
+				8549F3461CC8F7A80044F86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8549F3091CC8F7A80044F86C /* Project object */;
+}
